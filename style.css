@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baskervville&family=Cabin&family=Jost:wght@500&family=Oxygen&display=swap');
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: lighter;
+  background-color:#dddce8;
+  color:#585868;
+  font-size:17px;
+  line-height:normal;
+  text-align: center;
+
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  color:#7e7ea1;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  color:#8f8fb6;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+a {
+  font-family: 'Abril Fatface', cursive;
+  font-size:20px;
+  color: #352f55;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #8e827a;
+  transition: 500ms;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+#profile_pic {
+  border-radius: 50%;
+  border: solid #c0b0a7;
+  padding: 10px;
+}
+
+.social_icons {
+  font-size: 45px;
+  color: #ffff;
+  margin: 20px;
+  background-color: #c0b0a7;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 14px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background:#fffaf4;
+  padding: 40px;
+  box-shadow: 50px -10px  #847e7b;
+  border-radius: 14px;
+  margin: 40px 0px;
+  text-align: center;
+}
+
+#button-lewagon{
+  background:#c0b0a7;
+  color:#ffff;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 14px;
+}
+#button-lewagon:hover {
+  text-decoration: none;
+  color: #8e827a;
+  transition: 500ms;
+}
